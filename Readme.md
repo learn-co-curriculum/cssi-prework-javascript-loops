@@ -13,8 +13,8 @@ Arrays have a built in method, forEach which can also repeat an action, however 
  In general, loops are more flexible and they can be used with datatypes besides arrays so they are a more robust tool.
 
 
-##While loop
-A while statement executes its statements as long as a specified condition evaluates to true.
+##While Loops
+A while statement executes its statements as long as a specified condition evaluates to true. While loops are generally used when the number of iterations is unknown.
 
 A while loop checks the condition, then executes the loop.
 
@@ -44,8 +44,8 @@ while (i < numbers.length)
 
 Try using console.log(numbers); both before and after the loop to see how our array has changed. Try using alert(numbers); instead
 
-## Do While loop
-A Do/While executes the loop and then checks the conditions. It is very similar to the while loop, except that it is guaranteed to run at least once. It is not used as often as while loop.
+## Do While Loops
+A do/while loop executes the statement first and then checks the conditions. It is very similar to the while loop, except that it is guaranteed to run at least once.
 
 ```javascript
 do {statement} while (condition);
@@ -60,8 +60,9 @@ do {
 } while(i < numbers.length);
 
 ```
-##For loop
-We can accomplish the exact same thing with the more concise for loop. A for loop repeats until a specified condition evaluates to false. Here is the syntax:
+##For Loops
+A for loop repeats until a specified condition evaluates to false. It accomplishes the same thing as a while loop, but is generally used when the number of iterations is known.  In a for loop, you can initialize the counter variable, define how to increment the counter variable and check your condition all in one line.
+
 ```javascript
 for ([initialExpression]; [condition]; [incrementExpression]) {statement}
 ```
@@ -85,3 +86,9 @@ These parts for the for loop are similar to the while loop:
 
 + Inside the curly brackets are instructions for what should happen to each element that we loop through
   + `numbers[i] = numbers[i] * 5` - For each element, reassign that element a value that is five times greater.
+
+###Loop Summary
+Loops allow code to be repeated until a certain condition is met.
+* While loops - the number of iterations is unknown,  the condition is checked before the statement is executed
+* Do While loops - the number of iterations is unknown, the statement is executed before the condition is checked, so there will always be at least one iteration
+* For loops - the number of iterations is known, condition is checked before any code is executed 
