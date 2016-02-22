@@ -1,8 +1,3 @@
----
-tags: cssi, javascript
-level: 1
-languages: javascript
----
 # Loops
 
 A loop is a set of commands that executes repeatedly until a specified condition is met. JavaScript supports the for, do while, and while loop statements. They generally accomplish the same thing but their syntax is different.
