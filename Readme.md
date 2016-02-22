@@ -45,8 +45,7 @@ while (i < numbers.length)
 Try using console.log(numbers); both before and after the loop to see how our array has changed. Try using alert(numbers); instead
 
 ## Do While loop
-
-A Do/While executes the loop and then checks the conditions. It is very similar to the while loop.
+A Do/While executes the loop and then checks the conditions. It is very similar to the while loop, except that it is guaranteed to run at least once. It is not used as often as while loop.
 
 ```javascript
 do {statement} while (condition);
@@ -77,7 +76,7 @@ for(var i = 0; i < numbers.length; i = i + 1)
 ```
 In a for loop, our initialization, exit condition, and increment all happen in one line separated by a semicolon `;`.
 
-Let’s walk through each part of this.
+These parts for the for loop are similar to the while loop:
 + `for` is the keyword that we use to set up a loop
 + Inside of the parentheses is where we set up the conditions of our loop:
   +   `var i = 0` - A counter variable **i** is set to 0. It’s convention to use the variable i because i is short for index
