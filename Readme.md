@@ -1,6 +1,12 @@
 # Loops
-
 A loop is a set of commands that executes repeatedly until a specified condition is met. JavaScript supports the for, do while, and while loop statements. They generally accomplish the same thing but their syntax is different.
+
+##Objectives
+* Loops vs forEach Method
+* While Loops
+* Do/While Loops
+* For Loops
+
 
 ## Loops vs forEach Method
 Arrays have a built in method, `forEach` which can also repeat an action. However you cannot break out of a forEach loop. Using the forEach method is also a little bit slower than using a for loop. To loop over an array, you can use forEach or a for loop to accomplish the same task.
@@ -39,7 +45,7 @@ while (i < numbers.length)
 
 Try using console.log(numbers); both before and after the loop to see how our array has changed. Try using alert(numbers); instead
 
-## Do While Loops
+## Do/While Loops
 A do/while loop executes the statement first and then checks the conditions. It is very similar to the while loop, except that it is guaranteed to **run at least once**.
 
 ```javascript
